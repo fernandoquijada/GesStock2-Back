@@ -14,7 +14,7 @@ public interface ProductService {
 	Product save(Product product);
 
 	/*
-	 * @return lista de usuarios
+	 * @return lista de productos
 	 */
 	List<Product> findAll();
 	

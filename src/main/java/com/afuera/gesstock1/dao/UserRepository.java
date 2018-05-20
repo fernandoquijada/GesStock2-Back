@@ -10,7 +10,6 @@ import com.afuera.gesstock1.model.User;
  */
 public interface UserRepository extends JpaRepository<User, Long> {
 
-	
 	@SuppressWarnings("unchecked")
 	User save(User user);
 
